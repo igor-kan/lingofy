@@ -1,5 +1,3 @@
-import nextConfig from 'next';
-
 /** @type {import('next').NextConfig} */
 const config = {
   eslint: {
@@ -13,6 +11,7 @@ const config = {
   },
   output: 'export',
   basePath: '/lingofy',
+  assetPrefix: '/lingofy',
 };
 
 export default config;
